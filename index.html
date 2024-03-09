@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handle Video</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- The video -->
+    <video autoplay muted controls controlsList="nodownload" poster="" id="myVideo">
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+        <h1>Handle Video</h1>
+        <button id="pauseBtn">Pause</button>
+        <button id="playBtn">Play</button>
+        <button id="resumeBtn">Resume</button>
+        <button id="restartBtn">Restart</button>
+        <button id="fullscreenBtn">Full Screen</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
